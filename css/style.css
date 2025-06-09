@@ -1,0 +1,90 @@
+body{
+   text-align: justify; /* alinhamento do texto: central*/
+   font-family: Arial, Helvetica, sans-serif ,sans-serif; /* fonte principal, Arial. Se nao estiver disponivel, use a Sans Serif*/
+   background-image: url(../img/fundo.jpg); /* imagem de fundo */
+   color:#0c10e9;
+   margin: 0px 0px 30px 0px; /* margem superior e inferior 0 e margens laterais 0*/
+ }
+
+.principal{
+    background: #0fdae9;
+    height: auto; /* Deixe a altura crescer conforme necessário */
+    max-width: 60%; /*largura máxima da classe principal*/
+    margin: 0 auto; /*margem superior e inferior 0 e margens laterais automáticas*/
+    padding: 10px 0; /* Espaçamento interno*/
+}
+
+.principal li{ /* configurando os itens da classe principal*/
+    display: inline-block; /*para que o link ocupe apenas o espaço necessário*/
+    line-height: 1.5;
+    margin: 0 40px; /*margem superior e inferior 0 e margens laterais de 20px*/
+}
+
+
+ h2{
+    color: #1755b3;
+    font-size: 30px;
+    font-style: italic bold; /* estilo da fonte: itálico e negrito*/
+    text-decoration: underline; /* sublinhado do texto*/
+    text-align: center; /* alinhamento do texto: central*/
+ }
+
+ h3{
+    color: #0c10e9;
+    font-size: 20px; /*tamanho da fonte do título*/
+    font-style: italic bold; /* estilo da fonte: itálico e negrito*/
+    text-align: center; /* alinhamento do texto: central*/
+    text-decoration: underline; /* sublinhado do texto*/
+  }
+ 
+p{
+  line-height: 1.5; /*altura das linhas de todos os parágrafos*/
+  font-size: 15px;
+}
+section{
+  width: 80%; /*largura da seção*/
+  margin: 0 auto; /*centraliza a seção*/
+}
+
+img{
+  width: 25%; /*largura das imagens*/
+  margin: 0px 40px; /*margem de 40px ao lado das imagens*/
+}
+
+.centralizar-imagem {
+  display: block;
+  text-align: center; /* centraliza a imagem */
+}
+
+a{ /* "a" é a tag dos links*/
+    color: #f807e4; /*cor dos links*/
+    text-decoration: none; /*sem sublinhado nos links*/
+}
+
+a[href^="mailto:"] {
+  text-decoration: underline; /* Adiciona sublinhado para links de e-mail */
+  color: #0c10e9; /* Muda a cor para combinar com o resto do texto */
+}
+
+#formacao {
+  margin: 80px auto; /* margem superior de 80px e margens laterais automáticas */
+}
+
+#saibamais {
+  margin: 80px auto;
+}
+
+#contato {
+  margin: 80px auto 20 px auto; /* margem superior e inferior de 80px e margens laterais automáticas */
+  text-align: center;
+}
+
+
+ul {
+    display: flex;
+    list-style: none; /* remove os marcadores de lista */
+    padding: 0;        /* remove o espaçamento padrão */
+    gap: 20px;         /* espaçamento entre os itens (opcional) */
+    flex-direction: row; /* exibe os itens em linha */
+    justify-content: center;
+}
