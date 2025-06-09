@@ -9,7 +9,7 @@ body{
 .principal{
     background: #0fdae9;
     height: auto; /* Deixe a altura crescer conforme necessário */
-    max-width: 60%; /*largura máxima da classe principal*/
+    max-width: 80%; /*largura máxima da classe principal*/
     margin: 0 auto; /*margem superior e inferior 0 e margens laterais automáticas*/
     padding: 10px 0; /* Espaçamento interno*/
 }
@@ -17,9 +17,8 @@ body{
 .principal li{ /* configurando os itens da classe principal*/
     display: inline-block; /*para que o link ocupe apenas o espaço necessário*/
     line-height: 1.5;
-    margin: 0 40px; /*margem superior e inferior 0 e margens laterais de 20px*/
+    margin: 0 60px; /*margem superior e inferior 0 e margens laterais de 60px*/
 }
-
 
  h2{
     color: #1755b3;
@@ -78,7 +77,6 @@ a[href^="mailto:"] {
   margin: 80px auto 20 px auto; /* margem superior e inferior de 80px e margens laterais automáticas */
   text-align: center;
 }
-
 
 ul {
     display: flex;
